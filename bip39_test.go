@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/revision-3/go-bip39/wordlists"
+	"github.com/sbxcom/go-bip39/wordlists"
 	"github.com/tyler-smith/assert"
 )
 

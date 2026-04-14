@@ -14,7 +14,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/revision-3/go-bip39/wordlists"
+	"github.com/sbxcom/go-bip39/wordlists"
 	"golang.org/x/crypto/pbkdf2"
 )
 
@@ -26,7 +26,7 @@ var (
 	bigTwo          = big.NewInt(2)
 
 	// wordLengthChecksumMasksMapping is used to isolate the checksum bits from
-	//the entropy+checksum byte array.
+	// the entropy+checksum byte array.
 	wordLengthChecksumMasksMapping = map[int]*big.Int{
 		12: big.NewInt(15),
 		15: big.NewInt(31),

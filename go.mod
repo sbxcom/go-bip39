@@ -1,4 +1,4 @@
-module github.com/revision-3/go-bip39
+module github.com/sbxcom/go-bip39
 
 go 1.22
 
